@@ -179,10 +179,6 @@ footer textarea {
 
 /* responsive media query */
 
-.hide {
-  display: none;
-}
-
 @media screen and (max-width: 576px) {
   .banner,
   .skill-container,
@@ -222,8 +218,11 @@ footer textarea {
     width: calc(100% - 40px);
   }
 }
+
+/* for tablet  */
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .skill-container {
-    flex-wrap: wrap;
+  .banner {
+    flex-direction: column;
   }
 }
